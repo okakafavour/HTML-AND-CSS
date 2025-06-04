@@ -1,0 +1,125 @@
+body {
+    font-family: Tahoma, sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+    margin: 0;
+
+}
+
+h1, h2 {
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    border: 1px solid darkgoldenrod;
+}
+
+#page-banner {
+    background: darkgoldenrod;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#page-banner h1,
+#page-banner p {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#page-banner input {
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+
+#page-banner button {
+    background: #9361bf;
+    color: white;
+    border: 1px solid #9361bf;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#page-banner button:hover {
+    background: #333;
+    border-color: #333;
+}
+
+#book-list,
+#add-book {
+    margin: 30px;
+}
+
+#book-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#book-list li {
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#book-list li:hover {
+    border-color: #9361bf;
+}
+
+.delete {
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover {
+    background: #333;
+}
+
+#display-task {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#display-task button {
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#display-task :hover {
+    background: #333;
+    border-color: #333;
+}
+
+
+#display-task:after {
+    content: '';
+    display: block;
+    clear: both;
+}

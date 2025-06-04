@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+#container {
+
+    width: 90%;
+    max-width: 600px;
+    margin-top: -400px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    background-color: white;
+
+}
+
+#container header{
+    border-radius: 6px;
+}
+header {
+    width: 100%;
+    background-color: #007bff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 4px 4px 0 0;
+}
+
+#logo .title {
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
+}
+
+/*#add-task{*/
+/*    margin-top: 10px;*/
+/*    width: 100%;*/
+/*    max-width: 300px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
+
+/*#add-task{*/
+/*    width: 400px;*/
+/*    margin: 0 auto;*/
+/*    padding-top: 60px;*/
+/*}*/
+
+/*#add-task input{*/
+/*    display: block;*/
+/*    margin: 20px 0;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    font-size: 16px;*/
+/*    border-radius: 4px 0 0 4px;*/
+/*    box-sizing: border-box;*/
+/*    width: 300px;*/
+/*    float: left;*/
+/*}*/
+
+/*#add-task button{*/
+/*    border: 1px solid #9361bf;*/
+/*    background: #9361bf;*/
+/*    padding: 10px 20px;*/
+/*    font-size: 16px;*/
+/*    display: inline-block;*/
+/*    margin: 0;*/
+/*    border-radius: 0 4px 4px 0;*/
+/*    cursor: pointer;*/
+/*    width: 100px;*/
+/*    float: left;*/
+/*    margin: 20px 0;*/
+/*    border-left: 0;*/
+/*    color: white;*/
+/*}*/
+
+/*#add-task:after{*/
+/*    content: '';*/
+/*    display: block;*/
+/*    clear:both;*/
+/*}*/
+
+
+
+#add-Task{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#add-Task input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#display-task{
+    padding-top:  20px;
+    padding-bottom:  20px;
+    padding-left: 10px;
+
+}
+
+#display-task input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

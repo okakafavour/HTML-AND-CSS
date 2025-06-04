@@ -1,0 +1,275 @@
+body {
+    margin: 0 auto;
+    border: 1px solid black;
+    outline: 2px solid black;
+    width: 1440px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    border-bottom: 1px solid black;
+}
+
+.logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.menu ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.first_button {
+    padding: 5px 20px;
+}
+
+.first_button button {
+    border-radius: 0.375rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.Text {
+    margin-right: 40px;
+    padding-right: 220px;
+}
+
+.second_image {
+    display: flex;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.another_text{
+    font-size: 2px;
+    color: #3F3F3F;
+}
+
+.second h1 {
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-top: 40px;
+    margin-right: 100px;
+}
+
+.second p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second span {
+    color: #2995E2;
+}
+
+.another_button {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.another_button p {
+    color: #3F3F3F;
+    font-size: 16px;
+}
+
+.second_button {
+    padding: 10px  20px;
+    box-shadow: 5px 5px black;
+    background-color: #2995E2;
+    color: white;
+    border: none;
+}
+
+.second_heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 10px;
+}
+
+.text h1{
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.fourth_text p{
+    text-align: center;
+    margin: 2px;
+    color: #4F4F4F;
+}
+
+.middle_pics{
+   padding-left: 670px;
+}
+
+.services{
+    padding-left: 35px;
+    padding-top: 97px;
+}
+.services h1 {
+    padding-left: 5px;
+    font-family: Cairo, Arial, Helvetica, sans-serif ;
+    font-size: 25px;
+    color: #2995E2;
+}
+
+.services p {
+    color: #4F4F4F;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+.firstOne {
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+.firstOne h2{
+    padding-right: 2px;
+}
+
+.navbar2{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_button{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.third_button button {
+    padding: 10px 20px;
+    margin: 17px 0;
+    background-color: #2995E2;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.third_button button:active {
+    background-color: #15609e;
+}
+
+.third_section{
+    display: flex;
+}
+
+.third_sub{
+    display: flex;
+}
+
+.third_section h1 {
+    font-size: 35px;
+    padding-top: 140px;
+    padding-left: 70px;
+
+}
+
+.third_section_image{
+    padding-top: 90px;
+    padding-left: 25px;
+}
+
+.third_section p{
+    padding-left: 70px;
+}
+
+.third_section_button{
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.third_section_button button{
+    background-color: #2995E2;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+
+.third_section_button button:active {
+    background-color: #15609e;
+}
+
+.fourth_section h2{
+    padding-left: 29px;
+    padding-top: 100px;
+}
+
+.navbar4 p{
+    padding-left: 30px;
+}
+
+.navbar4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth_button{
+    padding-left: 25px;
+}
+
+.fourth_button button{
+    padding: 10px 20px;
+    box-shadow: 5px 5px black;
+    color: white;
+    background-color: #2995E2;
+    cursor: pointer;
+}
+
+.fourth_button button:active {
+    background-color: #15609e;
+}
+
+.fourth_section{
+    padding-top: 75px;
+}
+
+.fourth_logo img{
+    padding-top: 90px;
+    padding-right: 50px;
+}
+
+.fifth_section{
+    background-color: #2995E2;
+}
+
+@media (max-width: 768px) {
+    .third_button button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+
+
+

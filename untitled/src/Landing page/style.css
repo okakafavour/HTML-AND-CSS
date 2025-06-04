@@ -1,0 +1,235 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Website-Logo {
+    width: 80px;
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.logo-box h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+}
+
+.nav-link:hover {
+    color: #000;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+
+.signUp-btn {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 50px;
+}
+
+.signUp-btn:hover {
+    background-color: rgb(183, 183, 236);
+    color: #111;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes grow {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.2;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+#second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    gap: 50px;
+    column-gap: 60px;
+
+
+}
+
+.second-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+    padding-bottom: 305px;
+}
+
+.second-section-content h1 {
+    padding: 90px 0 20px 0;
+    font-size: 70px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.second-section-content h1 span {
+    color: cornflowerblue;
+}
+
+.second-section-content .description {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.button-demo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-section-content-button {
+    padding: 20px 40px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.second-section-content-button:hover {
+    background-color: #0056b3;
+}
+
+.view-demo {
+    margin: 0;
+    font-size: 1em;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.view-demo:hover {
+    color: #0056b3;
+}
+
+.second-image {
+    max-width: 90%;
+}
+
+.second-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.third-section-content h1{
+    font-size: 40px;
+}
+
+.third-section-content p {
+    padding: 30px 0;
+    font-size: 1em;
+}
+
+
+.image-container .user{
+    padding-left: 45px;
+}
+
+.image-container .cities{
+    padding-left:  45px;
+}
+
+.third-section-content-button{
+    padding: 20px 40px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+
+
+.third-section-content-button:active{
+    background-color: #0056b3;
+}
+
+#third-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.empty-div{
+    width: 85%;
+    height: 100%;
+    background-color: #D3D5DA;
+    border-radius: 20px;
+}
+
+#fourth-section{
+    align-content: center;
+}
+
+.middle-header {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 20px;
+}
+
+.middle-header p {
+    padding: 30px 0;
+}
