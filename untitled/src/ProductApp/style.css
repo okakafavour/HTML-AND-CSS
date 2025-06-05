@@ -64,3 +64,8 @@
     justify-content: space-between;
     font-family: "poppins", sans-serif;
 }
+
+.categoryAndPrice{
+    font-weight: 500;
+    font-size: 18px;
+}

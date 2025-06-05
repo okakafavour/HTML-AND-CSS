@@ -51,16 +51,21 @@ const displayProducts = (products) => {
 
     })
 
-    // const displayProducts = (products) => {
-    // products.forEach((product) => {
-    //     const {image,category,price} = product;
-    //     const productCard = document.createElement("div");
+    const searchBar = document.querySelector(".searchContainer input")
 
+    searchBar.addEventListener("keyup", (event) =>{
+        const term = event.target.value.toLowerCase();
+        const products = ImagesContainer.querySelectorAll(".categoryAndPrice");
 
-    //   const value = `
-    //     <img src="${image}" alt=>
-    //         <p>${category}</p>
-    //         <span>${price}</span>`
+        products.forEach((product) => {
+            const category = product.querySelector("p").textContent.toLowerCase();
+            //const price = product.querySelector("span").textContent;
 
-    //       ImagesContainer.innerHTML += value;
+            if(category.toLowerCase().includes(term)){
+                product.style.display = "block";
+            } else{
+                product.style.display = "none";
+            }
+        })
+    });
 }
